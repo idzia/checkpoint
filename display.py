@@ -20,3 +20,6 @@ def print_command_result(message):
     vertical_spacing = 2
 
     print(vertical_spacing * '\n' + message)
+
+def print_error_message(message):
+    print("ERROR: " + str(message))
